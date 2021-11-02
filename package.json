@@ -1,0 +1,22 @@
+{
+  "name": "functional-programming-2",
+  "version": "1.0.0",
+  "description": "- Exercício 1: use map() para transformar 'arr' em objetos usando mapToNumberObject()",
+  "main": "fp.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jm-marcel/functional-programming-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jm-marcel/functional-programming-2/issues"
+  },
+  "homepage": "https://github.com/jm-marcel/functional-programming-2#readme",
+  "dependencies": {
+    "ramda": "^0.27.1"
+  }
+}
