@@ -34,6 +34,8 @@ const isPrime = (number) => {
   for (let i = 2; i < number; i++) return number % i === 0 ? false : number > 1;
 };
 
+const pipe = R.pipe(isEven, isOdd, positive, negative, isZero, isPrime);
+
 const mapToNumberObject = (number) => {
   return { value: number };
 };
